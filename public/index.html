@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tasks API</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Tasks API</h1>
+
+    <h2>Overview</h2>
+    <p>A simple REST API for managing tasks using Express.js. Tasks are stored in <code>tasks.json</code>.</p>
+
+    <h2>Setup</h2>
+    <ul>
+      <li>Install dependencies: <code>npm install</code></li>
+      <li>Run server: <code>npm start</code> or <code>npm run dev</code></li>
+      <li>Access at: <code>http://localhost:4000</code></li>
+    </ul>
+
+    <h2>API Endpoints</h2>
+    <ul>
+      <li><code>GET /api/tasks</code> — Return all tasks</li>
+      <li><code>POST /api/tasks</code> — Add a new task (e.g., <code>{"title": "New Task"}</code>)</li>
+      <li><code>PUT /api/tasks/:id</code> — Mark as completed</li>
+      <li><code>DELETE /api/tasks/:id</code> — Delete a task</li>
+    </ul>
+ </div>
+</body>
+</html>
